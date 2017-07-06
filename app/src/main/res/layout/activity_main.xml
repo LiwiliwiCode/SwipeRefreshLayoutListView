@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="code.mian.com.swiperefreshlayoutlistview.MainActivity">
+
+    <code.mian.com.swiperefreshlayoutlistview.MySwipeRefreshLayout
+        android:id="@+id/mSwiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:id="@+id/mListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+    </code.mian.com.swiperefreshlayoutlistview.MySwipeRefreshLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
